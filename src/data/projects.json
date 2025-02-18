@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Ecommerce Web Application",
+    "imageSrc": "projects/food.png",
+    "description": "A full-stack food delivery application with dynamic order management, authentication, and an interactive UI.",
+    "skills": ["React", "Express", "Node.js", "MongoDB"]
+  },
+  {
+    "title": "Placement Portal",
+    "imageSrc": "projects/placement portal.png",
+    "description": "A student placement portal to streamline job applications, company listings, and interview scheduling.",
+    "skills": ["React", "Express", "Node.js", "MongoDB"]
+  }
+]
