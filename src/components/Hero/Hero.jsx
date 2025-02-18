@@ -13,7 +13,7 @@ export const Hero = () => {
       </div>
         {/* <h1 className={styles.title}><span>I'm</span> Prasad Raju</h1> */}
         <p className={styles.description}>
-          I'm a full-stack developer with  hands-on experience using React and
+          I'm a full-stack developer with  hands-on experience using ReactJS and
           NodeJS. Reach out if you'd like to know more!
         </p>
         <a href="mailto:prasadraju0525@gmail.com" className={styles.contactBtn}>
