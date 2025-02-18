@@ -50,6 +50,8 @@
   .container {
     flex-direction: column;
     gap: 23px;
+    align-items: center;  /* Center everything */
+    text-align: center;
   }
 
   .text {
@@ -59,7 +61,24 @@
   }
 
   .links {
-    /* align-items: center; */
+    align-items: center; /* Center links properly */
     text-align: center;
+    width: 100%; /* Ensure full width */
+  }
+
+  .link {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center icon and text */
+    gap: 15px; /* Reduce gap for better alignment */
+  }
+
+  .link img {
+    width: 30px; /* Ensure consistent icon size */
+    height: auto;
+  }
+
+  .link a {
+    font-size: 24px; /* Adjust font size for better fit */
   }
 }

@@ -141,6 +141,7 @@
   .skills {
     grid-template-columns: repeat(3, 1fr);
     padding: 1rem 5%;
-    grid-gap: 0.3rem;
+    grid-gap: 1rem;
+    margin-left: 15px;
   }
 }
