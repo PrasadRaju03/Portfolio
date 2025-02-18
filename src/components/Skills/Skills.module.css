@@ -14,8 +14,8 @@
   letter-spacing: 1.75px;
   text-transform: uppercase;
   margin-bottom: 2rem;
-  text-align: left;  /* Aligns title to the start */
-  margin-left: 10%;  /* Adjust margin as needed */
+  text-align: left;
+  margin-left: 10%;
 }
 
 .skills {
@@ -72,7 +72,7 @@
   font-size: 29px;
   font-weight: 400;
   transition: color 0.3s ease-in-out;
-  color: lightgrey ; /*var(--color-primary)*/
+  color: lightgrey;
 }
 
 .skill:hover p {
@@ -84,12 +84,63 @@
   .skills {
     grid-template-columns: repeat(2, 1fr);
     padding: 2rem 5%;
+    margin-left: 0;
+  }
+
+  .title {
+    text-align: center;
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .skills {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 2rem 2%;
+    margin-left: 0;
+  }
+
+  .title {
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .skillImageContainer {
+    width: 8rem;
+    height: 8rem;
+  }
+
+  .skill p {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .skills {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 2rem 2%;
+    margin-left: 0;
+  }
+
+  .title {
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .skillImageContainer {
+    width: 6rem;
+    height: 6rem;
+  }
+
+  .skill p {
+    font-size: 20px;
   }
 }
 
 @media screen and (max-width: 600px) {
   .skills {
-    grid-template-columns: repeat(1, 1fr);
-    padding: 2rem 2%;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 1rem 5%;
+    grid-gap: 0.3rem;
   }
 }

@@ -53,7 +53,6 @@
   color: #f10000; /* Red color */
 }
 
-
 .title span.recolor {
   color: #f10000;
 }
@@ -131,9 +130,40 @@
 @media screen and (max-width: 830px) {
   .container {
     flex-direction: column-reverse;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 
   .content {
     align-items: center;
+  }
+
+  .titleWrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .whiteText, .title {
+    font-size: 48px;
+  }
+
+  .description {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .contactBtn {
+    font-size: 24px;
+    padding: 12px 20px;
+  }
+
+  .heroImg {
+    width: 80%;
+    height: auto;
+  }
+
+  .topBlur, .bottomBlur {
+    width: 70vw;
+    height: 70vw;
   }
 }

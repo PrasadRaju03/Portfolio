@@ -27,10 +27,8 @@
 
 .aboutImage {
   width: 35%;
-  height: 540px; /* Maintain aspect ratio */
-  /* max-height: 500px; */
-  object-fit: cover  /* Adjust this value as needed */
-  /* width: 50%;  */
+  height: 540px; 
+  object-fit: cover 
 }
 
 .aboutItems {
@@ -70,7 +68,6 @@
   transition: color 0.3s ease-in-out;
 }
 
-
 .aboutItem h2::after {
   content: "";
   position: absolute;
@@ -78,12 +75,12 @@
   bottom: -6px; 
   width: 0%;
   height: 3px;
-  background-color:#00B4D8; /* Use theme color */
+  background-color:#00B4D8; 
   transition: width 0.3s ease-in-out;
 }
 
 .aboutItem:hover h2 {
-  color:#00B4D8 ; /* Change text color on hover */
+  color:#00B4D8 ;
 }
 
 .aboutItem:hover h2::after {
