@@ -27,7 +27,7 @@
 
 .aboutImage {
   width: 35%;
-  height: 520px; /* Maintain aspect ratio */
+  height: 540px; /* Maintain aspect ratio */
   /* max-height: 500px; */
   object-fit: cover  /* Adjust this value as needed */
   /* width: 50%;  */
